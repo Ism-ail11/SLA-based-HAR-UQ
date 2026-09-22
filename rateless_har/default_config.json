@@ -1,0 +1,11 @@
+{
+  "dataset":"unspecified", "variant":"main", "max_k":6, "alpha":0.05,
+  "deadline_ms":200, "regime":"moderate", "histogram_bins":256,
+  "max_set_size":1.5, "score":"margin", "stride_s":1.0, "jitter_ms":2.0,
+  "phy_mbps":1.0, "packet_overhead_ms":0.15, "peel_tolerance":2, "mc_passes":20,
+  "encoder":{"projections":2,"cap":16,"lambda1":0.25,"lambda2":0.20,"packet_bytes":64,"tile_size":256},
+  "controller":{"beta":0.05,"energy_cap_uj":1000,"max_emissions":64,"gamma":0.9,"eta":1.0,"debt_threshold":0.1,"kappa_k":1.0,"kappa_beta":2.0},
+  "energy":{"backbone_uj":120.0,"encode_uj":1.0,"tx_uj_per_byte":0.28,"idle_uj_per_ms":0.01},
+  "timing":{"backbone_ms":20.0,"decode_ms":2.0,"ack_delay_ms":1.0,"phone_busy_decode_ms":8.0,"edge_decode_ms":1.0,"edge_forward_ms":2.0},
+  "training":{"feature_dim":128,"batch_size":128,"epochs":80,"patience":12,"lr":0.001,"lr_floor":0.00001,"warmup_epochs":5,"augment":true,"class_balanced":false,"device":"cpu","threads":2}
+}

@@ -1,0 +1,55 @@
+{
+  "seed": 7,
+  "config": {
+    "feature_dim": 128,
+    "batch_size": 128,
+    "epochs": 2,
+    "patience": 12,
+    "lr": 0.001,
+    "lr_floor": 1e-05,
+    "warmup_epochs": 5,
+    "augment": true,
+    "class_balanced": false,
+    "device": "cpu",
+    "threads": 2
+  },
+  "data_sha256": "2f960345ac4b44650f4674427d5f6b8453760d83570a6b0b70f6ee707f43a3e7",
+  "torch": "2.2.2+cpu",
+  "numpy": "1.26.4",
+  "profile": {
+    "parameters": 23911,
+    "macs": 2259200,
+    "input_channels": 6,
+    "input_samples": 100,
+    "note": "Auxiliary margin MACs included; dropout training head parameters included."
+  },
+  "temperature": 2.0525503158569336,
+  "feature_scale": 0.008282403461635113,
+  "split": {
+    "test": [
+      "08",
+      "00"
+    ],
+    "cal": [
+      "07"
+    ],
+    "val": [
+      "01"
+    ],
+    "train": [
+      "03",
+      "06",
+      "02",
+      "04",
+      "05",
+      "09"
+    ]
+  },
+  "role_counts": {
+    "test": 24,
+    "cal": 12,
+    "val": 12,
+    "train": 72
+  },
+  "status": "reference_reimplementation_not_original_checkpoint"
+}

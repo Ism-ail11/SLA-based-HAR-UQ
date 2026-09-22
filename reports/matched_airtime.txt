@@ -1,0 +1,18 @@
+[
+  {
+    "method": "fixed_chunk",
+    "bytes": 256,
+    "validation_airtime_ms": 2.198,
+    "target_airtime_ms": 4.937416666666667,
+    "residual_ms": -2.7394166666666666,
+    "selection": "validation_only"
+  },
+  {
+    "method": "ordered",
+    "bytes": 192,
+    "validation_airtime_ms": 5.058,
+    "target_airtime_ms": 4.937416666666667,
+    "residual_ms": 0.12058333333333326,
+    "selection": "validation_only"
+  }
+]

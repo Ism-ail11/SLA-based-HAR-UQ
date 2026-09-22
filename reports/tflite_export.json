@@ -1,0 +1,17 @@
+{
+  "format": "TFLite int8",
+  "bytes": 38168,
+  "all_tensors_integer": true,
+  "representative_role": "train",
+  "representative_windows": 72,
+  "input_index": 0,
+  "feature_index": 35,
+  "input_scale": 0.0161803737282753,
+  "input_zero": -1,
+  "feature_scale": 0.0009435125393792987,
+  "feature_zero": -4,
+  "reference_feature_scale": 0.008282403461635113,
+  "max_feature_difference": 0.01593303820118308,
+  "requires_feature_reextraction_and_recalibration": true,
+  "tensorflow": "2.16.2"
+}

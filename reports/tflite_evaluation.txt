@@ -1,0 +1,20 @@
+{
+  "windows": 24,
+  "coverage": 1.0,
+  "coverage_at_deadline": 1.0,
+  "mean_set_size": 3.0,
+  "accuracy": 0.3333333333333333,
+  "latency_median_ms": 139.0954449536679,
+  "latency_p90_ms": 156.29437059546615,
+  "energy_mean_uj": 271.16503558460573,
+  "energy_p90_uj": 291.84294370595467,
+  "energy_per_hour_j": 0.9761941281045807,
+  "bytes_per_day": 43776000.0,
+  "airtime_per_day_s": 452.80799999999994,
+  "sla_met": 1.0,
+  "emitted_mean": 7.916666666666667,
+  "received_mean": 6.0,
+  "deadline_success": 0.0,
+  "bound_mean": 0.3934693402873666,
+  "budget_feasible_fraction": 0.0
+}

@@ -1,0 +1,25 @@
+{
+  "matrix_shape": [
+    12,
+    128
+  ],
+  "rank": 12,
+  "full_reconstruction_possible": false,
+  "lipschitz_counterexample": {
+    "phi": "identity",
+    "ideal": 0,
+    "errors": [
+      -2,
+      -1
+    ],
+    "error_norms": [
+      2,
+      1
+    ],
+    "scores": [
+      -2,
+      -1
+    ],
+    "conclusion": "smaller error norm does not imply a decreasing signed score"
+  }
+}
