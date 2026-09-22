@@ -1,5 +1,0 @@
-cff-version: 1.2.0
-message: "Please add the manuscript's final author list, DOI and publication metadata before publishing this repository."
-title: "SLA-Aware Rateless Uncertainty Packetization for TinyML-Based Human Activity Recognition at the IoT Edge — reference implementation"
-type: software
-version: 0.1.0
